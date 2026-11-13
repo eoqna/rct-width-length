@@ -1,0 +1,22 @@
+{
+  "number": 2,
+  "theme": "동물",
+  "grid": [
+    "눈동자##",
+    "송#동물원",
+    "이#차#숭",
+    "###오이",
+    "#개구리#"
+  ],
+  "clues": {
+    "눈동자": { "type": "definition", "text": "눈알 한가운데의 까만 부분" },
+    "동물원": { "type": "definition", "text": "사자, 기린, 코끼리를 우리에서 기르며 구경시켜 주는 곳" },
+    "오이": { "type": "definition", "text": "길쭉하고 초록색이며 오독오독 씹히는 채소" },
+    "개구리": { "type": "definition", "text": "개굴개굴 울고 폴짝폴짝 뛰는 동물" },
+    "눈송이": { "type": "definition", "text": "하늘에서 하얗게 흩날리며 내리는 눈 조각" },
+    "자동차": { "type": "definition", "text": "엔진의 힘으로 도로를 달리는, 바퀴 넷 달린 탈것" },
+    "원숭이": { "type": "definition", "text": "바나나를 좋아하고 나무를 잘 타는 동물" },
+    "오리": { "type": "definition", "text": "꽥꽥 울며 물 위를 헤엄치는 넓적부리 새" }
+  },
+  "meta": {"seed":209,"attempts":4000}
+}

@@ -1,0 +1,22 @@
+{
+  "number": 4,
+  "theme": "학교",
+  "grid": [
+    "#고구마#",
+    "#양#음악",
+    "종이학##",
+    "##교과서",
+    "###학#"
+  ],
+  "clues": {
+    "고구마": { "type": "definition", "text": "땅속에서 자라며 구워 먹으면 달콤한 자주색 껍질의 뿌리" },
+    "음악": { "type": "definition", "text": "노래와 악기 연주를 배우는 과목" },
+    "종이학": { "type": "definition", "text": "색지를 접어 만든 두루미 모양 장식" },
+    "교과서": { "type": "definition", "text": "학교 수업 시간에 공부하는 책" },
+    "고양이": { "type": "definition", "text": "야옹 하고 울며 쥐를 잘 잡는 동물" },
+    "마음": { "type": "definition", "text": "기쁘거나 슬픈 것을 느끼는 사람의 속" },
+    "학교": { "type": "definition", "text": "학생들이 모여 선생님께 배우는 곳" },
+    "과학": { "type": "definition", "text": "실험하고 관찰하며 자연의 원리를 배우는 과목" }
+  },
+  "meta": {"seed":411,"attempts":4000}
+}

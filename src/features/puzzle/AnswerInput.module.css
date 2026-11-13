@@ -1,0 +1,76 @@
+.form {
+  display: grid;
+  gap: 6px;
+}
+
+.row {
+  display: flex;
+  gap: 8px;
+}
+
+.input {
+  flex: 1 1 auto;
+  min-width: 0;
+  height: 48px;
+  padding: 0 14px;
+  /* iOS는 16px 미만 입력창에 포커스가 가면 화면을 확대한다 */
+  font-size: max(16px, 1.15rem);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: var(--ink);
+  background: var(--sheet);
+  border: 2px solid var(--rule-strong);
+  border-radius: 10px;
+}
+
+.input::placeholder {
+  color: var(--ink-faint);
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.input:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 1px;
+}
+
+.input:disabled {
+  opacity: 0.55;
+}
+
+.submit {
+  flex: 0 0 auto;
+  min-width: 76px;
+  height: 48px;
+  padding: 0 18px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--on-primary);
+  background: var(--primary);
+  border: 0;
+  border-radius: 10px;
+}
+
+.submit:active {
+  transform: translateY(1px);
+}
+
+.submit:disabled {
+  opacity: 0.45;
+}
+
+.message {
+  min-height: 1.4em;
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--ink-muted);
+}
+
+.message[data-kind='wrong'] {
+  color: var(--pen);
+}
+
+.message[data-kind='correct'] {
+  color: var(--ok);
+}

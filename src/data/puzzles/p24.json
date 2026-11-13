@@ -1,0 +1,28 @@
+{
+  "number": 24,
+  "theme": "명절",
+  "grid": [
+    "#비빔국수##",
+    "#눗##영양제",
+    "식물#한복#사",
+    "혜##여###",
+    "##보름달##",
+    "##리####",
+    "오곡밥####"
+  ],
+  "clues": {
+    "비빔국수": { "type": "definition", "text": "삶은 면을 고추장 양념에 비벼 먹는 음식" },
+    "영양제": { "type": "definition", "text": "부족한 비타민 따위를 채우려고 먹는 알약" },
+    "식물": { "type": "association", "text": "광합성, 뿌리와 잎, 화분" },
+    "한복": { "type": "association", "text": "저고리, 치마, 설날 차림" },
+    "보름달": { "type": "definition", "text": "음력 15일 밤에 뜨는 둥근 달" },
+    "오곡밥": { "type": "association", "text": "정월 대보름, 다섯 가지 곡식, 나물" },
+    "비눗물": { "type": "definition", "text": "비누를 푼 미끌미끌한 물" },
+    "수영복": { "type": "definition", "text": "물놀이할 때 입는 옷" },
+    "제사": { "type": "definition", "text": "돌아가신 조상을 기리며 음식을 차려 올리는 의식" },
+    "식혜": { "type": "definition", "text": "밥알이 동동 뜨는 달콤한 전통 음료" },
+    "한여름": { "type": "blank", "text": "( ) 밤의 꿈" },
+    "보리밥": { "type": "definition", "text": "열무와 고추장에 비벼 먹는 거친 잡곡 밥" }
+  },
+  "meta": {"seed":9629,"attempts":4000}
+}

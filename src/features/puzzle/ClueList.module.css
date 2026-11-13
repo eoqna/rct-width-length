@@ -1,0 +1,69 @@
+.lists {
+  display: grid;
+  gap: 20px;
+}
+
+.title {
+  padding-bottom: 6px;
+  margin-bottom: 4px;
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  font-weight: 700;
+  border-bottom: 2px solid var(--rule-strong);
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 2.2em 1fr;
+  gap: 4px;
+  width: 100%;
+  padding: 10px 8px;
+  text-align: left;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--rule);
+  border-radius: 0;
+}
+
+.item[data-active] {
+  background: var(--word);
+  box-shadow: inset 4px 0 0 var(--ink);
+}
+
+.num {
+  font-weight: 700;
+  color: var(--rule-strong);
+}
+
+.item[data-active] .num {
+  color: var(--ink);
+}
+
+.text {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: 8px;
+}
+
+.item[data-solved] .text {
+  color: var(--ink-muted);
+}
+
+.length {
+  font-size: 0.85rem;
+  color: var(--ink-faint);
+}
+
+/* 맞힌 단어: 빨간 펜으로 쓴 답 */
+.answer {
+  font-weight: 700;
+  color: var(--pen);
+  letter-spacing: 0.06em;
+}

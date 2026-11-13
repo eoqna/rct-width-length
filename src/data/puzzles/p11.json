@@ -1,0 +1,25 @@
+{
+  "number": 11,
+  "theme": "음식",
+  "grid": [
+    "떡볶이###",
+    "국#빨간색#",
+    "####종#",
+    "###사이다",
+    "##설탕#람",
+    "####박쥐"
+  ],
+  "clues": {
+    "떡볶이": { "type": "definition", "text": "가래떡을 고추장 양념에 볶아 만든 매콤한 간식" },
+    "빨간색": { "type": "definition", "text": "딸기나 소방차 같은 색" },
+    "사이다": { "type": "definition", "text": "톡 쏘는 맛의 투명한 탄산음료" },
+    "설탕": { "type": "association", "text": "솜사탕, 달고나의 재료, 하얀 가루" },
+    "박쥐": { "type": "definition", "text": "낮에는 동굴에 거꾸로 매달려 자는 날짐승" },
+    "떡국": { "type": "definition", "text": "설날 아침에 먹으면 한 살 더 먹는다는 음식" },
+    "이빨": { "type": "definition", "text": "음식을 씹는 입 속의 단단한 것을 낮춰 부르는 말" },
+    "색종이": { "type": "association", "text": "학 접기, 딱지 접기, 알록달록 네모난 것" },
+    "사탕": { "type": "definition", "text": "입에 넣고 녹여 먹는 달콤한 과자" },
+    "다람쥐": { "type": "definition", "text": "볼에 도토리를 가득 넣는 줄무늬 동물" }
+  },
+  "meta": {"seed":1118,"attempts":4000}
+}

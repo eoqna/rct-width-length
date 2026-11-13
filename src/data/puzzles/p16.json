@@ -1,0 +1,25 @@
+{
+  "number": 16,
+  "theme": "우리 동네",
+  "grid": [
+    "##아파트#",
+    "바나나###",
+    "##운동회#",
+    "소방서#전철",
+    "리##골목#",
+    "####마을"
+  ],
+  "clues": {
+    "아파트": { "type": "definition", "text": "여러 집이 층층이 모여 있는 높은 건물" },
+    "바나나": { "type": "association", "text": "원숭이, 노란색, 껍질" },
+    "운동회": { "type": "definition", "text": "학교에서 청군 백군으로 나뉘어 겨루는 행사" },
+    "소방서": { "type": "association", "text": "119, 빨간 차, 불을 끄는 사람들의 일터" },
+    "전철": { "type": "definition", "text": "전기의 힘으로 철길을 달리는 차" },
+    "골목": { "type": "definition", "text": "집과 집 사이로 난 좁은 길" },
+    "마을": { "type": "definition", "text": "시골에서 여러 집이 모여 사는 곳" },
+    "아나운서": { "type": "definition", "text": "뉴스를 읽거나 방송을 진행하는 사람" },
+    "회전목마": { "type": "definition", "text": "놀이공원에서 말 모양 의자가 빙글빙글 도는 놀이기구" },
+    "소리": { "type": "definition", "text": "귀로 듣는 것" }
+  },
+  "meta": {"seed":3379,"attempts":4000}
+}

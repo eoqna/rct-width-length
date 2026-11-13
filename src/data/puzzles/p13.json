@@ -1,0 +1,25 @@
+{
+  "number": 13,
+  "theme": "집안 물건",
+  "grid": [
+    "###베란다",
+    "##운##리",
+    "##동그라미",
+    "#옷장#디#",
+    "#걸##오전",
+    "종이배##등"
+  ],
+  "clues": {
+    "베란다": { "type": "association", "text": "아파트, 빨래 건조대, 화분" },
+    "동그라미": { "type": "association", "text": "정답 표시, 바퀴 모양, 세모·네모의 짝" },
+    "옷장": { "type": "definition", "text": "옷을 걸거나 개어 넣어 두는 큰 가구" },
+    "오전": { "type": "definition", "text": "해가 뜬 뒤부터 낮 열두 시까지" },
+    "종이배": { "type": "definition", "text": "색지를 접어 물에 띄우는 작은 배" },
+    "다리미": { "type": "definition", "text": "뜨겁게 달궈 옷의 구김을 펴는 기구" },
+    "운동장": { "type": "definition", "text": "학교에서 공을 차고 달리기를 하는 넓은 마당" },
+    "라디오": { "type": "definition", "text": "소리로만 방송을 들려주는 기계" },
+    "옷걸이": { "type": "definition", "text": "옷을 걸어 두는 갈고리 달린 물건" },
+    "전등": { "type": "definition", "text": "전기로 불을 밝히는 등" }
+  },
+  "meta": {"seed":1320,"attempts":4000}
+}

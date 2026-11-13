@@ -1,0 +1,22 @@
+{
+  "number": 8,
+  "theme": "바다",
+  "grid": [
+    "##바닷물",
+    "주사위#고",
+    "머##모기",
+    "니#고래#",
+    "###성#"
+  ],
+  "clues": {
+    "바닷물": { "type": "definition", "text": "소금이 녹아 있어 짠 바다의 물" },
+    "주사위": { "type": "definition", "text": "던져서 나온 점의 수만큼 말을 옮기는 정육면체" },
+    "모기": { "type": "definition", "text": "여름밤 앵앵거리며 사람 피를 빠는 벌레" },
+    "고래": { "type": "definition", "text": "물을 뿜는 바다의 아주 큰 동물" },
+    "바위": { "type": "definition", "text": "아주 크고 단단한 돌" },
+    "물고기": { "type": "definition", "text": "아가미로 숨 쉬며 지느러미로 헤엄치는 동물" },
+    "주머니": { "type": "definition", "text": "옷에 달려 손이나 물건을 넣는 곳" },
+    "모래성": { "type": "definition", "text": "바닷가에서 쌓아 올린 성, 파도에 쉽게 무너져요" }
+  },
+  "meta": {"seed":815,"attempts":4000}
+}

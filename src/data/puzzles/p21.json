@@ -1,0 +1,29 @@
+{
+  "number": 21,
+  "theme": "감정",
+  "grid": [
+    "상#놀라움##",
+    "어린이####",
+    "##기###자",
+    "군고구마#사랑",
+    "#마#을#슴#",
+    "미움#버#벌#",
+    "술##스트레스"
+  ],
+  "clues": {
+    "놀라움": { "type": "definition", "text": "뜻밖의 일을 겪고 가슴이 철렁하는 마음" },
+    "어린이": { "type": "definition", "text": "어른이 되기 전의 아이, 5월 5일이 이들의 날" },
+    "군고구마": { "type": "definition", "text": "겨울 길거리에서 군밤과 함께 파는 따끈한 간식" },
+    "사랑": { "type": "definition", "text": "아끼고 귀하게 여기는 따뜻한 마음" },
+    "미움": { "type": "definition", "text": "누군가를 싫어하고 꺼리는 마음" },
+    "스트레스": { "type": "definition", "text": "시험이나 일 때문에 생기는 마음의 압박감" },
+    "상어": { "type": "association", "text": "바다의 사냥꾼, 날카로운 이빨, 등지느러미" },
+    "놀이기구": { "type": "association", "text": "롤러코스터, 바이킹, 회전목마" },
+    "자랑": { "type": "definition", "text": "잘한 일이나 가진 것을 남 앞에서 뽐내는 일" },
+    "고마움": { "type": "definition", "text": "도움을 받았을 때 '감사합니다' 하게 되는 마음" },
+    "마을버스": { "type": "association", "text": "동네 한 바퀴, 작은 차체, 정류장" },
+    "사슴벌레": { "type": "association", "text": "큰 집게 턱, 여름 숲, 장수풍뎅이의 맞수" },
+    "미술": { "type": "definition", "text": "그림을 그리거나 만들기를 하는 과목" }
+  },
+  "meta": {"seed":2128,"attempts":4000}
+}

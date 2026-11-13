@@ -1,0 +1,62 @@
+/*
+ * 시각 스타일: 원고지와 칠판 (Q9 기본안 — 값만 바꾸면 분위기를 바꿀 수 있다)
+ * - 밝은 화면: 초록 줄 원고지, 검은 칸은 칠판 초록, 선택은 형광펜
+ * - 어두운 화면: 칠판 위 분필
+ * - 채점은 빨간 펜(정답 동그라미·도장), 힌트는 파란 펜
+ */
+:root {
+  color-scheme: light;
+
+  --paper: #f2f5f0;
+  --sheet: #ffffff;
+  --rule: #a9c7b4;
+  --rule-strong: #4c8564;
+  --block: #2c4a3e;
+  --on-block: #f3f7f1;
+  --primary: #2c4a3e;
+  --on-primary: #f3f7f1;
+  --ink: #1c2521;
+  --ink-muted: #52605a;
+  --ink-faint: #6b7a72;
+  --word: #fff0a3;
+  --active: #ffcf33;
+  --on-active: #1c2521;
+  --revealed: #2353c0;
+  --pen: #cc1f37;
+  --ok: #276b43;
+  --focus: #2353c0;
+  --scrim: rgb(20 32 27 / 0.45);
+
+  --font-sans: 'Apple SD Gothic Neo', 'Malgun Gothic', '맑은 고딕', 'Noto Sans KR', 'Noto Sans CJK KR', system-ui,
+    sans-serif;
+  --font-serif: 'AppleMyungjo', 'Nanum Myeongjo', 'Noto Serif KR', 'Noto Serif CJK KR', Batang, '바탕', serif;
+
+  --radius: 10px;
+  --gutter: 16px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+
+    --paper: #16201c;
+    --sheet: #22302a;
+    --rule: #34493e;
+    --rule-strong: #6f9e82;
+    --block: #0b120f;
+    --on-block: #e9f0e8;
+    --primary: #8fc0a2;
+    --on-primary: #0f1a15;
+    --ink: #edf2ea;
+    --ink-muted: #b4c2b8;
+    --ink-faint: #8d9c93;
+    --word: #3c4123;
+    --active: #e6cf5c;
+    --on-active: #17201c;
+    --revealed: #93b6ff;
+    --pen: #ff7487;
+    --ok: #86d6a2;
+    --focus: #93b6ff;
+    --scrim: rgb(0 0 0 / 0.55);
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "number": 14,
+  "theme": "운동",
+  "grid": [
+    "#야구###",
+    "##급식실#",
+    "경찰차#내#",
+    "기##동화책",
+    "장화#메##",
+    "###달리기"
+  ],
+  "clues": {
+    "야구": { "type": "definition", "text": "방망이로 공을 치고 베이스를 도는 운동" },
+    "급식실": { "type": "association", "text": "점심시간, 식판, 학교 밥" },
+    "경찰차": { "type": "definition", "text": "사이렌을 울리며 도둑을 쫓는 차" },
+    "동화책": { "type": "definition", "text": "어린이를 위한 이야기가 담긴 책" },
+    "장화": { "type": "definition", "text": "비 오는 날 신는 목이 긴 고무 신발" },
+    "달리기": { "type": "definition", "text": "누가 먼저 결승선에 닿는지 겨루는 운동" },
+    "구급차": { "type": "association", "text": "삐뽀삐뽀, 119, 병원" },
+    "실내화": { "type": "definition", "text": "학교 건물 안에서만 갈아 신는 신발" },
+    "경기장": { "type": "definition", "text": "선수들이 시합을 벌이는 넓은 곳" },
+    "동메달": { "type": "definition", "text": "올림픽 3등이 목에 거는 구릿빛 상" }
+  },
+  "meta": {"seed":1421,"attempts":4000}
+}

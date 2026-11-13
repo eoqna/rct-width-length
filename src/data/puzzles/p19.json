@@ -1,0 +1,24 @@
+{
+  "number": 19,
+  "theme": "곤충",
+  "grid": [
+    "##일개미#",
+    "메뚜기#소풍",
+    "#####뎅",
+    "###올챙이",
+    "###빼##",
+    "##매미##"
+  ],
+  "clues": {
+    "일개미": { "type": "definition", "text": "여왕을 위해 먹이를 나르고 집을 짓는 일꾼 곤충" },
+    "메뚜기": { "type": "definition", "text": "풀밭에서 뒷다리로 펄쩍펄쩍 뛰는 곤충" },
+    "소풍": { "type": "association", "text": "김밥, 보물찾기, 도시락" },
+    "올챙이": { "type": "definition", "text": "개구리가 되기 전의 꼬리 달린 새끼" },
+    "매미": { "type": "association", "text": "여름, 맴맴, 나무" },
+    "일기": { "type": "definition", "text": "그날 있었던 일을 적는 글" },
+    "미소": { "type": "definition", "text": "소리 없이 빙그레 웃는 웃음" },
+    "풍뎅이": { "type": "definition", "text": "등이 단단하고 반짝이는 딱정벌레" },
+    "올빼미": { "type": "definition", "text": "귀깃이 없고 얼굴이 둥근, 밤에 사냥하는 새" }
+  },
+  "meta": {"seed":1926,"attempts":4000}
+}

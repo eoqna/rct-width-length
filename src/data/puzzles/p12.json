@@ -1,0 +1,24 @@
+{
+  "number": 12,
+  "theme": "직업",
+  "grid": [
+    "##불##기",
+    "#작가#의자",
+    "##사진사#",
+    "해파리###",
+    "#란####",
+    "흰색####"
+  ],
+  "clues": {
+    "작가": { "type": "definition", "text": "소설이나 동화 같은 글을 쓰는 사람" },
+    "의자": { "type": "definition", "text": "엉덩이를 대고 앉는, 등받이 달린 가구" },
+    "사진사": { "type": "definition", "text": "카메라로 사람들의 모습을 찍어 주는 직업" },
+    "해파리": { "type": "definition", "text": "투명하고 흐물흐물하며 쏘이면 따가운 바다 동물" },
+    "흰색": { "type": "definition", "text": "눈이나 우유 같은 흰 빛깔" },
+    "불가사리": { "type": "association", "text": "별 모양, 바다, 다섯 개의 팔" },
+    "기자": { "type": "definition", "text": "취재해서 신문이나 뉴스에 기사를 쓰는 사람" },
+    "의사": { "type": "definition", "text": "병원에서 아픈 사람을 진찰하고 고쳐 주는 사람" },
+    "파란색": { "type": "definition", "text": "맑은 하늘이나 깊은 바다 같은 색" }
+  },
+  "meta": {"seed":1219,"attempts":4000}
+}

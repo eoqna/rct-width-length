@@ -1,0 +1,30 @@
+.steps {
+  display: grid;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: step;
+}
+
+/* 원고지 칸 안의 번호 — 실제로 순서가 있는 안내라서 번호를 쓴다 */
+.steps li {
+  position: relative;
+  padding-left: 40px;
+  counter-increment: step;
+}
+
+.steps li::before {
+  content: counter(step);
+  position: absolute;
+  top: 1px;
+  left: 0;
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  font-weight: 800;
+  color: var(--ink);
+  background: var(--sheet);
+  border: 2px solid var(--rule-strong);
+}

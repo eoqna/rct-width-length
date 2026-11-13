@@ -1,0 +1,25 @@
+{
+  "number": 15,
+  "theme": "계절",
+  "grid": [
+    "휴지#목#봄",
+    "#우#도깨비",
+    "#개나리##",
+    "계#뭇###",
+    "단풍잎###",
+    "#선####"
+  ],
+  "clues": {
+    "휴지": { "type": "definition", "text": "코를 풀거나 닦을 때 쓰는 얇은 종이" },
+    "도깨비": { "type": "definition", "text": "뿔이 나고 방망이를 휘두르는 옛이야기 속 괴물" },
+    "개나리": { "type": "association", "text": "봄, 노란 꽃, 울타리" },
+    "단풍잎": { "type": "association", "text": "가을, 빨간 손바닥 모양, 책갈피" },
+    "지우개": { "type": "definition", "text": "연필로 쓴 글씨를 문질러 없애는 학용품" },
+    "목도리": { "type": "definition", "text": "추울 때 목에 둘러 감는 긴 천" },
+    "봄비": { "type": "definition", "text": "새싹을 깨우는, 봄에 내리는 비" },
+    "나뭇잎": { "type": "definition", "text": "가지에 돋아나 가을이면 물들어 떨어지는 것" },
+    "계단": { "type": "definition", "text": "층과 층 사이를 오르내리게 만든 층층대" },
+    "풍선": { "type": "definition", "text": "입으로 불어 부풀리는 고무 주머니" }
+  },
+  "meta": {"seed":1522,"attempts":4000}
+}

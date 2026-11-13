@@ -1,0 +1,25 @@
+{
+  "number": 17,
+  "theme": "악기",
+  "grid": [
+    "박자####",
+    "#리코더##",
+    "##끼###",
+    "오카리나##",
+    "징##팔꿈치",
+    "어머니##킨"
+  ],
+  "clues": {
+    "박자": { "type": "definition", "text": "음악에서 강하고 약한 소리가 되풀이되는 시간 단위" },
+    "리코더": { "type": "definition", "text": "음악 시간에 부는, 구멍 뚫린 세로 피리" },
+    "오카리나": { "type": "definition", "text": "흙으로 구워 만든, 새알처럼 둥근 피리" },
+    "팔꿈치": { "type": "definition", "text": "팔이 접히는 곳의 바깥쪽 뾰족한 부분" },
+    "어머니": { "type": "association", "text": "어버이날, 카네이션, 엄마의 높임말" },
+    "자리": { "type": "definition", "text": "앉거나 서 있는 곳" },
+    "코끼리": { "type": "association", "text": "긴 코, 큰 귀, 상아" },
+    "오징어": { "type": "definition", "text": "다리가 열 개이고 먹물을 뿜는 바다 동물" },
+    "나팔": { "type": "definition", "text": "입에 대고 불면 빠밤 하고 소리 나는 금속 악기" },
+    "치킨": { "type": "definition", "text": "닭을 튀겨 만든 바삭한 요리" }
+  },
+  "meta": {"seed":1724,"attempts":4000}
+}

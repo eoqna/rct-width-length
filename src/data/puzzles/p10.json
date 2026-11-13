@@ -1,0 +1,22 @@
+{
+  "number": 10,
+  "theme": "색깔",
+  "grid": [
+    "#노란색#",
+    "모래#연두",
+    "##분필#",
+    "##홍##",
+    "검은색##"
+  ],
+  "clues": {
+    "노란색": { "type": "definition", "text": "병아리나 개나리꽃 같은 색" },
+    "모래": { "type": "definition", "text": "바닷가나 놀이터에 깔린 아주 잘게 부서진 돌" },
+    "연두": { "type": "definition", "text": "새싹처럼 노란빛이 도는 연한 초록" },
+    "분필": { "type": "definition", "text": "칠판에 글씨를 쓰는 하얀 막대" },
+    "검은색": { "type": "definition", "text": "까마귀 깃털이나 깊은 밤하늘의 빛깔" },
+    "노래": { "type": "definition", "text": "가사에 가락을 붙여 부르는 것" },
+    "색연필": { "type": "definition", "text": "여러 빛깔의 심이 든, 그림 그릴 때 쓰는 필기구" },
+    "분홍색": { "type": "definition", "text": "벚꽃이나 복숭아꽃 같은 연한 빨강" }
+  },
+  "meta": {"seed":1017,"attempts":4000}
+}

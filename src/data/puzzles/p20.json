@@ -1,0 +1,25 @@
+{
+  "number": 20,
+  "theme": "채소",
+  "grid": [
+    "#포##책#",
+    "파도#양상추",
+    "프##배#위",
+    "리#고추##",
+    "카메라###",
+    "##니###"
+  ],
+  "clues": {
+    "파도": { "type": "association", "text": "바다, 출렁출렁, 서핑" },
+    "양상추": { "type": "definition", "text": "햄버거에 들어가는 아삭한 잎채소" },
+    "고추": { "type": "definition", "text": "빨갛게 익으면 매운맛을 내는 채소" },
+    "카메라": { "type": "definition", "text": "찰칵 하고 사진을 찍는 기계" },
+    "포도": { "type": "definition", "text": "작은 알이 송이로 달린 보라색 과일" },
+    "책상": { "type": "definition", "text": "공부하거나 글을 쓸 때 앞에 두는 가구" },
+    "파프리카": { "type": "definition", "text": "피망과 닮았지만 달고 알록달록한 채소" },
+    "양배추": { "type": "association", "text": "돈가스 옆 채 썬 채소, 공 모양, 겹겹이 싼 잎" },
+    "추위": { "type": "definition", "text": "겨울에 몸이 덜덜 떨리는 차가운 기운" },
+    "고라니": { "type": "definition", "text": "송곳니가 삐죽 나온 작은 사슴" }
+  },
+  "meta": {"seed":2027,"attempts":4000}
+}

@@ -1,0 +1,22 @@
+{
+  "number": 5,
+  "theme": "가족",
+  "grid": [
+    "##토#쌍",
+    "##마#둥",
+    "#오토바이",
+    "아빠#나#",
+    "이#누나#"
+  ],
+  "clues": {
+    "오토바이": { "type": "definition", "text": "엔진이 달려 부릉부릉 달리는 두 바퀴 탈것" },
+    "아빠": { "type": "definition", "text": "아버지를 다정하게 부르는 말" },
+    "누나": { "type": "definition", "text": "남동생이 손위 여자 형제를 부르는 말" },
+    "토마토": { "type": "definition", "text": "빨갛게 익는 열매채소, 케첩의 재료" },
+    "쌍둥이": { "type": "definition", "text": "한 엄마에게서 한꺼번에 태어난 두 아이" },
+    "오빠": { "type": "definition", "text": "여동생이 손위 남자 형제를 부르는 말" },
+    "바나나": { "type": "definition", "text": "노랗고 길쭉하며 껍질을 벗겨 먹는 과일" },
+    "아이": { "type": "definition", "text": "나이가 어린 사람" }
+  },
+  "meta": {"seed":512,"attempts":4000}
+}

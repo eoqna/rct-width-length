@@ -1,0 +1,25 @@
+{
+  "number": 18,
+  "theme": "옷",
+  "grid": [
+    "#앵#운동화",
+    "#무###장",
+    "#새우#교실",
+    "##체육복#",
+    "휴지통###",
+    "#퍼####"
+  ],
+  "clues": {
+    "운동화": { "type": "association", "text": "끈, 달리기, 체육 시간에 신는 것" },
+    "새우": { "type": "association", "text": "튀김, 볶음밥, 등이 굽은 바다 동물" },
+    "교실": { "type": "definition", "text": "학생들이 수업을 받는 방" },
+    "체육복": { "type": "definition", "text": "뛰고 달리는 수업 시간에 갈아입는 학교 옷" },
+    "휴지통": { "type": "definition", "text": "다 쓴 종이나 쓰레기를 버리는 통" },
+    "앵무새": { "type": "definition", "text": "사람의 말을 따라 하는 알록달록한 새" },
+    "화장실": { "type": "definition", "text": "볼일을 보고 손을 씻는 방" },
+    "우체통": { "type": "definition", "text": "길가에 서 있는 빨간 통, 편지를 넣는 곳" },
+    "교복": { "type": "definition", "text": "학생들이 똑같이 맞춰 입는 학교 옷" },
+    "지퍼": { "type": "definition", "text": "이를 맞물려 옷이나 가방을 여닫는 것" }
+  },
+  "meta": {"seed":1825,"attempts":4000}
+}

@@ -1,0 +1,21 @@
+{
+  "number": 3,
+  "theme": "탈것",
+  "grid": [
+    "##잠#캥",
+    "발#자전거",
+    "목소리#루",
+    "#방###",
+    "기차역##"
+  ],
+  "clues": {
+    "자전거": { "type": "definition", "text": "두 발로 페달을 밟아 바퀴를 굴리는 탈것" },
+    "목소리": { "type": "definition", "text": "사람이 말하거나 노래할 때 목에서 나오는 음성" },
+    "기차역": { "type": "definition", "text": "열차를 타고 내리는 곳" },
+    "잠자리": { "type": "definition", "text": "꼬리가 길고 눈이 큰, 가을 하늘을 나는 곤충" },
+    "캥거루": { "type": "definition", "text": "배에 있는 주머니에 새끼를 넣고 껑충껑충 뛰는 동물" },
+    "발목": { "type": "definition", "text": "발과 다리를 잇는 잘록한 부분" },
+    "소방차": { "type": "definition", "text": "불이 난 곳으로 달려가 물을 뿜는 빨간 차" }
+  },
+  "meta": {"seed":310,"attempts":4000}
+}

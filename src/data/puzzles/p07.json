@@ -1,0 +1,22 @@
+{
+  "number": 7,
+  "theme": "몸",
+  "grid": [
+    "강물###",
+    "아###발",
+    "지도#손등",
+    "#토#가#",
+    "머리카락#"
+  ],
+  "clues": {
+    "강물": { "type": "definition", "text": "강에 흐르는 물" },
+    "지도": { "type": "definition", "text": "땅의 모양과 길을 줄여서 그린 그림" },
+    "손등": { "type": "definition", "text": "손바닥의 반대쪽, 손의 바깥 면" },
+    "머리카락": { "type": "definition", "text": "미용실에서 자르고 빗으로 빗는 털" },
+    "강아지": { "type": "definition", "text": "멍멍 짖는 개의 새끼" },
+    "발등": { "type": "definition", "text": "발의 위쪽 면, 신발 끈이 닿는 부분" },
+    "도토리": { "type": "definition", "text": "다람쥐가 좋아하는 참나무 열매" },
+    "손가락": { "type": "definition", "text": "한 손에 다섯 개씩 있어 물건을 집는 부분" }
+  },
+  "meta": {"seed":714,"attempts":4000}
+}

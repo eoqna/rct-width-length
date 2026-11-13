@@ -1,0 +1,28 @@
+{
+  "number": 30,
+  "theme": "교통",
+  "grid": [
+    "축#안전벨트#",
+    "구##화#랙#",
+    "공항#번#터널",
+    "#구미호###",
+    "##꾸####",
+    "오페라####",
+    "염#지하철##"
+  ],
+  "clues": {
+    "안전벨트": { "type": "definition", "text": "차에 타면 가장 먼저 매는 띠" },
+    "공항": { "type": "association", "text": "비행기, 여권, 활주로" },
+    "터널": { "type": "blank", "text": "산을 뚫어 만든 ( )을 지나자 바다가 보였다" },
+    "구미호": { "type": "definition", "text": "꼬리가 아홉 개 달린 여우 요괴" },
+    "오페라": { "type": "definition", "text": "노래로 이야기를 이끄는 서양 음악극" },
+    "지하철": { "type": "definition", "text": "땅속 굴을 따라 도시 밑을 달리는 전동차" },
+    "축구공": { "type": "definition", "text": "검고 흰 오각형 무늬가 박힌, 발로 차는 것" },
+    "전화번호": { "type": "blank", "text": "휴대폰에 친구 ( )를 저장했다" },
+    "트랙터": { "type": "definition", "text": "논밭을 갈거나 농기구를 끄는 농사용 차" },
+    "항구": { "type": "association", "text": "배, 부두, 등대" },
+    "미꾸라지": { "type": "blank", "text": "( ) 한 마리가 온 웅덩이를 흐린다" },
+    "오염": { "type": "definition", "text": "물이나 공기가 더러워짐" }
+  },
+  "meta": {"seed":3037,"attempts":4000}
+}

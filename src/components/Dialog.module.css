@@ -1,0 +1,63 @@
+.backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: grid;
+  place-items: center;
+  padding: var(--gutter);
+  background: var(--scrim);
+}
+
+.panel {
+  width: min(100%, 400px);
+  max-height: calc(100dvh - 32px);
+  overflow: auto;
+  padding: 24px 22px 20px;
+  color: var(--ink);
+  background: var(--sheet);
+  border: 2px solid var(--rule-strong);
+  border-radius: 14px;
+}
+
+.title {
+  margin-bottom: 12px;
+  font-family: var(--font-serif);
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+/* 창 안의 버튼 줄 — 각 화면이 함께 쓴다 */
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.primary,
+.secondary {
+  flex: 1 1 0;
+  min-height: 48px;
+  padding: 0 16px;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+.primary {
+  color: var(--on-primary);
+  background: var(--primary);
+  border: 2px solid var(--primary);
+}
+
+.secondary {
+  color: var(--ink);
+  background: transparent;
+  border: 2px solid var(--rule-strong);
+}
+
+.danger {
+  color: #fff;
+  background: var(--pen);
+  border-color: var(--pen);
+}
